@@ -131,6 +131,74 @@ header {
   transform: scale(1.05);
 }
 
+/* hero section */
+
+.heroSection {
+  width: 100%;
+  height: calc(100vh - 90px);
+  padding: 115px 20px;
+  background-image: url(/images/mobilebground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.heroIntro {
+  padding: 30px 20px;
+}
+
+.heroIntro h1 {
+  font-size: 30px;
+  font-family: "COCOGOOSE", sans-serif;
+  line-height: 1.3;
+  background: linear-gradient(to right, #e70e02, #fd5200, #f8961e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+.heroIntro p,
+.aboutIntoText {
+  font-size: 16px;
+  color: #f52711;
+}
+
+.heroDescription {
+  width: 100%;
+  padding: 10px 20px;
+  border: 4px solid #fff;
+  font-size: 16px;
+  color: #272a32;
+}
+
+.programSchedule {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.programSchedule h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.programSchedule p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.joinButton {
+  background-color: #ec5242;
+  color: #fafafa;
+  padding: 15px 50px;
+  font-size: 20px;
+}
+
+.joinButton:focus {
+  color: #ec5242;
+  background-color: #fff;
+  border: 1px solid #ec5242;
+}
+
 @media (max-width: 768px) {
   .topHeader {
     display: none;
@@ -226,5 +294,49 @@ header {
   .mobileNav,
   .mobileMenu {
     display: none;
+  }
+
+  /* hero desktop */
+  .heroSection {
+    height: calc(100vh - 90px);
+    padding: 115px 20px;
+    background-image: url(/images/desktopbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .heroIntro {
+    font-size: 25px;
+  }
+
+  .heroIntro h1 {
+    font-size: 75px;
+    line-height: 65px;
+  }
+
+  .heroDescription {
+    width: 50%;
+  }
+
+  .heroDescription p {
+    font-size: 18px;
+  }
+
+  .programSchedule {
+    width: 50%;
+    margin-top: 12px;
+  }
+
+  .programSchedule p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .joinButton:hover {
+    border: 2px solid #ec5242;
+    background-color: transparent;
+    color: #ec5242;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
   }
 }
