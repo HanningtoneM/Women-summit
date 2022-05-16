@@ -199,6 +199,51 @@ header {
   border: 1px solid #ec5242;
 }
 
+/* programs */
+
+.mainPrograms {
+  width: 100%;
+  padding: 100px 10px;
+  background-image: url(/images/programbg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #272a32;
+}
+
+.programs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.program {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #8181817a;
+  margin: 6px 0;
+}
+
+.program h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fe4a3b;
+}
+
+.program:hover {
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
+  transform: scale(1.02);
+  border: 1px solid #fff;
+}
+
+.morePrograms {
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
 @media (max-width: 768px) {
   .topHeader {
     display: none;
@@ -338,5 +383,29 @@ header {
     color: #ec5242;
     transition: all 0.5s ease-in-out;
     transform: scale(1.05);
+  }
+
+  .programs {
+    flex-direction: row;
+    transition: 0.6s ease-in-out;
+  }
+
+  .program {
+    width: 20%;
+    background-color: #8181814d;
+  }
+
+  .program:hover {
+    cursor: pointer;
+  }
+
+  .morePrograms {
+    display: inline-block;
+    font-size: 22px;
+  }
+
+  .morePrograms:hover {
+    transition: 0.6s ease-in-out;
+    transform: scale(1.02);
   }
 }
