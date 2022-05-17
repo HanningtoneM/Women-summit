@@ -9,3 +9,9 @@ menuIcon.addEventListener('click', () => {
 closeMenu.addEventListener('click', () => {
   mobileMenu.classList.toggle('active');
 });
+
+document.querySelectorAll('.menuList').forEach((menuList) => {
+  menuList.addEventListener('click', () => {
+    mobileMenu.classList.toggle('active');
+  });
+});

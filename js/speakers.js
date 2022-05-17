@@ -4,28 +4,28 @@ const speakers = [
   {
     name: 'Magret Kenyatta',
     position: 'first lady of kenya',
-    description: 'first lady of kenya and also the founder of beyond zero campaign',
+    description: 'Margaret Gakuo Kenyatta is a Kenyan educator, First Lady of Kenya Since 2013, and wife of Uhuru Muigai Kenyatta, fourth president. She is also the founder of beyond-Zero campaign that has helped many women in our country',
     image: '/images/women/kenyatta.jpg',
   },
 
   {
     name: 'Julie Gichuru',
     position: 'Media personality',
-    description: 'journalist and media personality',
+    description: 'Julie Gathoni Sumira Gichuru is a Kenyan entrepreneur and media personality with investments in media, fashion retail and entertainment sectors. She is an independent director at Acumen Communication Limited and is a fellow and trustee of the Africa Leadership Initiative EA.',
     image: '/images/women/julie.jpg',
   },
 
   {
     name: 'Flora Mworoa',
     position: 'County Comissioner',
-    description: 'County Comissioner of Nairiobi county and mentor',
+    description: 'Flora Mworoa is the County Comissioner of Nairobi county. She grew up in a small town in Meru county and has managed to grow her craft in both education and career wise. She is a definiton of a great career woman',
     image: '/images/cc2.jpeg',
   },
 
   {
     name: 'Lupita Nyongo',
     position: 'Actor',
-    description: 'Actor and award winner for 12 years of slave',
+    description: 'Lupita Amondi is a Kenyan-Mexican actress. She was born in Mexico City, where her father was teaching, and was raised in Kenya from the age of one.',
     image: '/images/women/lupita.webp',
   },
 
@@ -39,7 +39,7 @@ const speakers = [
   {
     name: 'Wendo Githaka',
     position: 'Student counsel',
-    description: 'student counsel at Nairobi universty and also Student mentor',
+    description: 'student counsel at Universty of Nairobi and also Student mentor. Studies law and has specialized in public speaking. She is also the chairlady of the creating and performing arts club.',
     image: '/images/wendo.jpeg',
   },
 ];
