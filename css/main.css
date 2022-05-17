@@ -137,7 +137,7 @@ header {
   width: 100%;
   height: calc(100vh - 90px);
   padding: 115px 20px;
-  background-image: url(/images/mobilebground.png);
+  background-image: url(./images/mobilebground.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
