@@ -137,7 +137,7 @@ header {
   width: 100%;
   height: calc(100vh - 90px);
   padding: 115px 20px;
-  background-image: url(/images/mobilebground.png);
+  background-image: url(./images/mobilebground.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -204,7 +204,7 @@ header {
 .mainPrograms {
   width: 100%;
   padding: 100px 10px;
-  background-image: url(/images/programbg.svg);
+  background-image: url(./images/programbg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -368,7 +368,7 @@ footer {
   width: 100%;
   height: 100vh;
   padding: 115px 20px;
-  background-image: url(/images/mobilebground.png);
+  background-image: url(./images/mobilebground.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -461,7 +461,7 @@ footer {
       rgba(218, 123, 123, 0.829),
       rgba(211, 104, 104, 0.829)
     ),
-    url(/images/about/pastevents.jpeg);
+    url(./images/about/pastevents.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -473,7 +473,7 @@ footer {
       rgba(209, 91, 91, 0.829),
       rgba(224, 106, 106, 0.829)
     ),
-    url(/images/about/pastevents2.jpg);
+    url(./images/about/pastevents2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -596,7 +596,7 @@ footer {
   .heroSection {
     height: calc(100vh - 90px);
     padding: 115px 20px;
-    background-image: url(/images/desktopbg.png);
+    background-image: url(./images/desktopbg.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -767,7 +767,7 @@ footer {
   }
 
   .aboutHero {
-    background-image: url(/images/desktopbg.png);
+    background-image: url(./images/desktopbg.png);
   }
 
   .aboutIntroText {
