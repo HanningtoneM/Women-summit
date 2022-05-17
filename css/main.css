@@ -367,6 +367,49 @@ footer {
   font-weight: bold;
 }
 
+.aboutHero {
+  width: 100%;
+  height: 100vh;
+  padding: 115px 20px;
+  background-image: url(/images/mobilebground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutIntroText {
+  text-align: center;
+}
+
+.aboutHero h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ec5242;
+  font-family: 'Roboto', sans-serif;
+}
+
+.secondaryParagraph {
+  display: none;
+}
+
+.thirdParagraph {
+  display: none;
+}
+
+.aboutHeroTexts {
+  width: 96%;
+  margin: 20px auto;
+  padding: 20px 10px;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+}
+
+.contactText {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
 @media (max-width: 768px) {
   .topHeader {
     display: none;
@@ -378,6 +421,14 @@ footer {
 
   .logo {
     display: none;
+  }
+
+  .aboutHero .aboutIntroText {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ec5242;
   }
 }
 
@@ -633,5 +684,37 @@ footer {
 
   .footerWrapper {
     align-items: center;
+  }
+
+  .aboutHero {
+    background-image: url(/images/desktopbg.png);
+  }
+
+  .aboutIntroText {
+    display: none;
+  }
+
+  .aboutHero h1 {
+    font-size: 65px;
+  }
+
+  .aboutHeroTexts {
+    width: 60%;
+    border: 1px solid #e0dede;
+    padding: 50px;
+  }
+
+  .aboutHeroTexts p {
+    display: block;
+    font-size: 18px;
+  }
+
+  .contactText {
+    margin-top: 50px;
+    font-size: 18px;
+  }
+
+  .contactEmail {
+    text-decoration: underline;
   }
 }
