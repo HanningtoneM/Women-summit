@@ -244,6 +244,129 @@ header {
   margin-top: 20px;
 }
 
+/* speakers */
+.featuredSpeakers {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+.speakers {
+  display: flex;
+  flex-direction: column;
+}
+
+.featuredSpeakers h2 {
+  font-weight: 600;
+}
+
+.featured-left {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.image {
+  width: 40%;
+  position: relative;
+}
+
+.image .image-left {
+  width: 60%;
+  position: absolute;
+}
+
+.image .image-top {
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  width: 100%;
+}
+
+.image-top:hover {
+  transition: 0.6s ease-in-out;
+  transform: scale(1.05);
+}
+
+.talker-info {
+  width: 60%;
+  padding: 5px 0;
+  margin-left: 30px;
+}
+
+.talker-info h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.partners {
+  width: 100%;
+  padding: 70px 0;
+  background-color: #272a32;
+}
+
+.partnerslogos {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.partnerLogodiv {
+  width: 20%;
+  margin: 10px 20px;
+}
+
+.partnerLogodiv img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerLogoImage a img {
+  width: 100%;
+}
+
+.partnerLogodiv img:hover {
+  transition: 0.6s ease-in-out;
+  transform: scale(1.4);
+}
+
+footer {
+  width: 50%;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.footerWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footerLogoImage {
+  width: 40%;
+}
+
+.footerInfo {
+  width: 60%;
+  margin-left: 20px;
+}
+
+.footerWomenSummit:hover {
+  transition: 0.6s ease-in-out;
+  transform: scale(1.04);
+}
+
+.footerInfo p {
+  display: none;
+}
+
+.footerInfo h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .topHeader {
     display: none;
@@ -367,6 +490,7 @@ header {
     font-size: 18px;
   }
 
+  /* program */
   .programSchedule {
     width: 50%;
     margin-top: 12px;
@@ -407,5 +531,107 @@ header {
   .morePrograms:hover {
     transition: 0.6s ease-in-out;
     transform: scale(1.02);
+  }
+
+  /* speakers */
+  .speakers {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .featuredSpeakers {
+    font-weight: 600;
+  }
+
+  .featured-left {
+    width: 50%;
+  }
+
+  .image {
+    width: 40%;
+    position: relative;
+  }
+
+  .image .image-left {
+    width: 40%;
+    position: absolute;
+  }
+
+  .image .image-top {
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    width: 100%;
+  }
+
+  .image-top:hover {
+    transition: 0.6s ease-in-out;
+    transform: scale(1.05);
+  }
+
+  .talker-info {
+    width: 60%;
+    padding: 5px 0;
+    margin-left: 40px;
+    margin-bottom: 30px;
+  }
+
+  .talker-info h4 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .talker-info p {
+    padding-right: 20px;
+  }
+
+  .partnerLogodiv {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    margin: 10px;
+  }
+
+  .partnerLogodiv img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerLogoImage a img {
+    width: 60%;
+  }
+
+  .partnerLogodiv img:hover {
+    transition: 0.6s ease-in-out;
+    transform: scale(1.4);
+  }
+
+  .footerInfo h4 {
+    font-size: 25px;
+  }
+
+  .footerWomenSummit:hover {
+    transition: 0.6s ease-in-out;
+    transform: scale(1.04);
+  }
+
+  .footerInfo {
+    padding: 0;
+  }
+
+  .footerInfo p {
+    display: block;
+  }
+
+  footer {
+    padding: 70px 20px;
+  }
+
+  .footerWrapper {
+    align-items: center;
   }
 }
