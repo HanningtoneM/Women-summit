@@ -1,6 +1,12 @@
 # Women-summit
 women's summit to highlight some of the problems facing women
 
+## Desktop screenshot
+<img src="/screenshots/womensummitdesktop.png" alt="screenshot">
+
+## Mobile Screenshot
+<img src="/screenshots/womensummitmobile.png" alt="screenshot">
+
 ## Built With
 
 - HTML
