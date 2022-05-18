@@ -33,7 +33,7 @@ To get a local copy up and running:
 
 ## Credits
 
-Template from this [Figma](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) by [Microverse](https://bit.ly/MicroverseTN)
+Template from this [behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) by Cindy Shin 
 
 ## Contributers
 
