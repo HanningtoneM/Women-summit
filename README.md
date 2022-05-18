@@ -33,7 +33,7 @@ To get a local copy up and running:
 
 ## Credits
 
-Template from this [behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) by Cindy Shin 
+Template from this [behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) by  [Cindy Shin](https://www.behance.net/adagio07) 
 
 ## Contributers
 
