@@ -477,6 +477,10 @@ header {
   font-size: 45px;
 }
 
+.footerColor {
+  background-color: #272a31;
+}
+
 @media (max-width: 768px) {
   .topHeader {
     display: none;
@@ -503,7 +507,7 @@ header {
   }
 
   footer {
-    width: 50%;
+    width: 100%;
     padding: 50px 20px;
     background-color: #fff;
   }
