@@ -1,0 +1,845 @@
+/* Google font import - Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@500;700&display=swap');
+
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Colors */
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.primary-color {
+  color: #ec5242;
+}
+
+.seconday-dark {
+  color: #272a32;
+}
+
+.bg-seconday-dark {
+  background-color: #272a32;
+}
+
+.secondary-light {
+  color: #d3d3d3;
+}
+
+.secondary-light-bg {
+  background-color: #d3d3d3;
+}
+
+/* mobile css */
+body {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  color: #565656;
+  background-color: #fafafa;
+}
+
+header {
+  position: relative;
+}
+
+.line {
+  width: 70px;
+  height: 2px;
+  margin: auto;
+  background-color: #ec5242;
+}
+
+/* mobile navigation */
+.mobileNav {
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: 24px;
+  cursor: pointer;
+}
+
+.mobileNav div {
+  width: 35px;
+  height: 4px;
+  margin-top: 6px;
+  background-color: #272a32;
+}
+
+.mobileMenu {
+  display: block;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #ec5242;
+  padding: 40px 20px;
+  left: -100%;
+  opacity: 0;
+  z-index: 9999;
+  transition: all 0.5s ease-in-out;
+  backdrop-filter: blur(2px);
+}
+
+.mobileMenu.active {
+  background-color: #ec5342f8;
+  left: 0;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+  backdrop-filter: blur(2px);
+}
+
+.mobileLogo {
+  width: 20px;
+}
+
+.close-icon {
+  width: 40px;
+  color: #fff;
+}
+
+.menuList {
+  color: #eee;
+  font-size: 25px;
+}
+
+.menuList .navLinks {
+  color: #fff;
+}
+
+.mobileEnrollButton {
+  background-color: #fff;
+  color: #ec5242;
+  padding: 15px 50px;
+  font-size: 20px;
+}
+
+.mobileEnrollButton:hover {
+  border: 2px #ec5242 solid;
+  background-color: transparent;
+  color: #ec5242;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.05);
+}
+
+/* hero section */
+
+.heroSection {
+  width: 100%;
+  height: calc(100vh - 90px);
+  padding: 115px 20px;
+  background-image: url('../images/mobilebground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.heroIntro {
+  padding: 30px 20px;
+}
+
+.heroIntro h1 {
+  font-size: 30px;
+  font-family: "COCOGOOSE", sans-serif;
+  line-height: 1.3;
+  background: linear-gradient(to right, #e70e02, #fd5200, #f8961e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+.heroIntro p,
+.aboutIntoText {
+  font-size: 16px;
+  color: #f52711;
+}
+
+.heroDescription {
+  width: 100%;
+  padding: 10px 20px;
+  border: 4px solid #fff;
+  font-size: 16px;
+  color: #272a32;
+}
+
+.programSchedule {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.programSchedule h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.programSchedule p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.joinButton {
+  background-color: #ec5242;
+  color: #fafafa;
+  padding: 15px 50px;
+  font-size: 20px;
+}
+
+.joinButton:focus {
+  color: #ec5242;
+  background-color: #fff;
+  border: 1px solid #ec5242;
+}
+
+/* programs */
+
+.mainPrograms {
+  width: 100%;
+  padding: 100px 10px;
+  background-image: url('../images/programbg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #272a32;
+}
+
+.programs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.program {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #8181817a;
+  margin: 6px 0;
+}
+
+.program h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fe4a3b;
+}
+
+.program:hover {
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
+  transform: scale(1.02);
+  border: 1px solid #fff;
+}
+
+.morePrograms {
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* speakers */
+.featuredSpeakers {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+.speakers {
+  display: flex;
+  flex-direction: column;
+}
+
+.featuredSpeakers h2 {
+  font-weight: 600;
+}
+
+.featured-left {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.image {
+  width: 40%;
+  position: relative;
+}
+
+.image .image-left {
+  width: 60%;
+  position: absolute;
+}
+
+.image .image-top {
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  width: 100%;
+}
+
+.image-top:hover {
+  transition: 0.6s ease-in-out;
+  transform: scale(1.05);
+}
+
+.talker-info {
+  width: 60%;
+  padding: 5px 0;
+  margin-left: 30px;
+}
+
+.talker-info h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.partners {
+  width: 100%;
+  padding: 70px 0;
+  background-color: #272a32;
+}
+
+.partnerslogos {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.partnerLogodiv {
+  width: 20%;
+  margin: 10px 20px;
+}
+
+.partnerLogodiv img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partnerLogodiv img:hover {
+  transition: 0.6s ease-in-out;
+  transform: scale(1.4);
+}
+
+.footerWrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footerWomenSummit {
+  width: 150px;
+}
+
+.footerInfo {
+  width: 60%;
+  margin-left: 20px;
+}
+
+.footerWomenSummit:hover {
+  transition: 0.6s ease-in-out;
+  transform: scale(1.04);
+}
+
+.footerInfo p {
+  display: none;
+}
+
+.footerInfo h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.aboutHero {
+  width: 100%;
+  height: 100vh;
+  padding: 115px 20px;
+  background-image: url('../images/mobilebground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutIntroText {
+  text-align: center;
+}
+
+.aboutHero h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ec5242;
+  font-family: 'Roboto', sans-serif;
+}
+
+.secondaryParagraph {
+  display: none;
+}
+
+.thirdParagraph {
+  display: none;
+}
+
+.aboutHeroTexts {
+  width: 96%;
+  margin: 20px auto;
+  padding: 20px 10px;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+}
+
+.contactText {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.womenKenyaLogo {
+  width: 100%;
+  padding: 100px 20px;
+  background-color: #fff;
+}
+
+.logoDescription {
+  width: 90%;
+  margin: auto;
+}
+
+.mobileDescription {
+  display: block;
+  margin: 20px;
+}
+
+.logoDescription .mobileDescription {
+  display: block;
+  font-size: 18px;
+}
+
+.womenKenyaLogoDiv {
+  margin: 30px auto;
+  border: 1px solid #d3d3d3;
+  padding: 50px 40px;
+}
+
+.pastEvents {
+  width: 100%;
+  padding: 100px 20px;
+  border-top: 2px solid #d3d3d3;
+  padding-bottom: 120px;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.events .event {
+  width: 100%;
+  height: 427px;
+  margin: 20px 25px;
+  text-align: center;
+}
+
+.event-left {
+  background-image:
+    linear-gradient(
+      rgba(218, 123, 123, 0.829),
+      rgba(211, 104, 104, 0.829)
+    ),
+    url('../images/about/pastevents.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.event-right {
+  background-image:
+    linear-gradient(
+      rgba(209, 91, 91, 0.829),
+      rgba(224, 106, 106, 0.829)
+    ),
+    url('../images/about/pastevents2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.eventYear {
+  font-size: 45px;
+}
+
+.footerColor {
+  background-color: #272a31;
+}
+
+@media (max-width: 768px) {
+  .topHeader {
+    display: none;
+  }
+
+  .desktopMenu {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .aboutHero .aboutIntroText {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ec5242;
+  }
+
+  .desktopDescription {
+    display: none;
+  }
+
+  footer {
+    width: 100%;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .topHeader,
+  nav {
+    display: block;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
+
+  .logo img {
+    width: 28%;
+  }
+
+  .topHeader {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #272a32;
+    color: #fff;
+  }
+
+  .headerSocialLinks {
+    color: #fff;
+  }
+
+  .topHeaderLinks {
+    font-size: 14px;
+  }
+
+  .desktopMenu {
+    display: flex;
+  }
+
+  nav {
+    height: 66px;
+    line-height: 66px;
+  }
+
+  .navLinks {
+    color: #272a32;
+    font-size: 18px;
+  }
+
+  .navLinks:hover {
+    color: #ec5242;
+  }
+
+  .navLinks:active {
+    color: #ec5242;
+  }
+
+  .navLinks:focus {
+    color: #fff;
+  }
+
+  .promo {
+    width: 150px;
+    height: 40px;
+    border: 3px solid #ec5242;
+    padding: 1px 8px;
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ec5242;
+  }
+
+  .promo:hover {
+    color: #f16151;
+  }
+
+  .mobileNav,
+  .mobileMenu {
+    display: none;
+  }
+
+  /* hero desktop */
+  .heroSection {
+    height: calc(100vh - 90px);
+    padding: 115px 20px;
+    background-image: url('../images/desktopbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .heroIntro {
+    font-size: 25px;
+  }
+
+  .heroIntro h1 {
+    font-size: 75px;
+    line-height: 65px;
+  }
+
+  .heroDescription {
+    width: 50%;
+  }
+
+  .heroDescription p {
+    font-size: 18px;
+  }
+
+  /* program */
+  .programSchedule {
+    width: 50%;
+    margin-top: 12px;
+  }
+
+  .programSchedule p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .joinButton:hover {
+    border: 2px solid #ec5242;
+    background-color: transparent;
+    color: #ec5242;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+  }
+
+  .programs {
+    flex-direction: row;
+    transition: 0.6s ease-in-out;
+  }
+
+  .program {
+    width: 20%;
+    background-color: #8181814d;
+  }
+
+  .program:hover {
+    cursor: pointer;
+  }
+
+  .morePrograms {
+    display: inline-block;
+    font-size: 22px;
+  }
+
+  .morePrograms:hover {
+    transition: 0.6s ease-in-out;
+    transform: scale(1.02);
+  }
+
+  /* speakers */
+  .speakers {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .featuredSpeakers {
+    font-weight: 600;
+  }
+
+  .featured-left {
+    width: 50%;
+  }
+
+  .image {
+    width: 40%;
+    position: relative;
+  }
+
+  .image .image-left {
+    width: 40%;
+    position: absolute;
+  }
+
+  .image .image-top {
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    width: 100%;
+  }
+
+  .image-top:hover {
+    transition: 0.6s ease-in-out;
+    transform: scale(1.05);
+  }
+
+  .talker-info {
+    width: 60%;
+    padding: 5px 0;
+    margin-left: 40px;
+    margin-bottom: 30px;
+  }
+
+  .talker-info h4 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .talker-info p {
+    padding-right: 20px;
+  }
+
+  .partnerLogodiv {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    margin: 10px;
+  }
+
+  .partnerLogodiv img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerWomenSummit {
+    width: 200px;
+  }
+
+  .partnerLogodiv img:hover {
+    transition: 0.6s ease-in-out;
+    transform: scale(1.4);
+  }
+
+  .footerInfo h4 {
+    font-size: 25px;
+  }
+
+  .footerWomenSummit:hover {
+    transition: 0.6s ease-in-out;
+    transform: scale(1.04);
+  }
+
+  .footerInfo {
+    padding: 0;
+  }
+
+  .footerInfo p {
+    display: block;
+  }
+
+  footer {
+    padding: 70px 20px;
+  }
+
+  .footerWrapper {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: auto;
+    width: 50%;
+  }
+
+  .aboutHero {
+    background-image: url('../images/desktopbg.png');
+  }
+
+  .aboutIntroText {
+    display: none;
+  }
+
+  .aboutHero h1 {
+    font-size: 65px;
+  }
+
+  .aboutHeroTexts {
+    width: 60%;
+    border: 1px solid #e0dede;
+    padding: 50px;
+  }
+
+  .aboutHeroTexts p {
+    display: block;
+    font-size: 18px;
+  }
+
+  .contactText {
+    margin-top: 50px;
+    font-size: 18px;
+  }
+
+  .contactEmail {
+    text-decoration: underline;
+  }
+
+  .womenKenyaLogo {
+    width: 100%;
+    padding: 70px 0;
+    border-top: 2px solid #e9e9e9;
+  }
+
+  .womenKenyaLogoDiv {
+    width: 80%;
+    border: 2px solid #e9e9e9;
+  }
+
+  .logoDescription {
+    width: 50%;
+    margin-top: 30px;
+  }
+
+  .mobileDescription {
+    display: none;
+  }
+
+  .desktopDescription {
+    display: block;
+    width: 60%;
+    margin: auto;
+  }
+
+  .footerColor {
+    background-color: #272a31;
+  }
+
+  .pastEvents {
+    padding: 100px 0;
+    border-top: 2px solid #e4e4e4;
+  }
+
+  .events {
+    display: flex;
+    flex-direction: row;
+  }
+}
