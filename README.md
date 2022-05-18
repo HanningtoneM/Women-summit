@@ -35,6 +35,8 @@ To get a local copy up and running:
 👤 **hanningtone Monda**
 
 - Github: [@HanningtoneM](https://github.com/HanningtoneM)
+- linkedin: [@Hanningtone Machuka](https://www.linkedin.com/in/hanningtone-machuka-58501722a)
+- Twitter: [@Hanningtone254](https://twitter.com/Hanningtone254?t=YVXXz9EZzOhR5vPi3DlHDQ&s=09)
 
 
 ## Credits
